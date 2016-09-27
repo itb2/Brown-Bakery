@@ -1,15 +1,13 @@
-# The Sturdy-Chainsaw-Bakery
+# Brown Bakery Checkout Page
 
-The weirdest-named cookie shop this side of GitHub!
 
-#Cakes we serve
-
-- white cake, chocolate frosting
-- ice cream cake
-- strawberry short cake
-- pound cake
+#Cookies
+- Lemon
+- Chocolate
+- Sugar
 
 # Tech Stack
 
 - JavaScript
-- HTML
+- HTML/CSS
+- jQuery

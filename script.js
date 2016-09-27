@@ -52,6 +52,7 @@ function addToBasket(){
 	$("#price").html("Total: $"+String(Cookies.get("total")));
 	$("#empty").hide();
 	$("#basketItems").show();
+	$("#checkout").show();
 }
 function updateBasket(){
 	var sug = document.getElementById("sugarCount");
@@ -119,12 +120,21 @@ function customCount(){
 	var cookie = whichCookie(event.target.id);
 	if (cookie == document.getElementById("sugarCount")){
 		var num = prompt("Enter the number of Sugar Cookies you would like to add to your cart.");
+		if (num == null){
+			num = 0;
+		}
 		cookie.innerText = num;
 	}else if(cookie == document.getElementById("chocCount")){
 		var num = prompt("Enter the number of Chocolate Cookies you would like to add to your cart.");
+		if (num == null){
+			num = 0;
+		}
 		cookie.innerText = num;
 	}else if(cookie == document.getElementById("lemCount")){
 		var num = prompt("Enter the number of Lemon Cookies you would like to add to your cart.");
+		if (num == null){
+			num = 0;
+		}
 		cookie.innerText = num;
 	}else{
 		alert("something went wrong");
