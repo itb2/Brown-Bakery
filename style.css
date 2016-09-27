@@ -1,0 +1,195 @@
+body{
+	background-color: #FFF2E3;
+}
+#lc{
+	color: #FFEF79;
+	text-shadow: 2px 1px black;
+	font-size: 25px;
+}
+#cc{
+	color: #453125;
+	text-shadow: 1px 1px brown;
+	font-size: 25px;
+}
+#sc{
+	color: #A3825E;
+	text-shadow: 1px 1px black;
+	font-size: 25px;
+}
+#bakery{
+	text-shadow: 2px 2px brown;
+	font-size: 4em;
+	width: 400px;
+	margin: 0 auto;
+}
+#address{
+	color: #453125;
+	width: 265px;
+	margin: 0 auto;
+}
+#menu{
+	padding-top: 35px;
+	width: 463px;
+	margin: 0 auto;
+	font-size: 20px;
+
+}
+div#menu > div{
+	text-align: center;
+	display: inline-block;
+	width: 110px;
+	border: 1px solid brown;
+	background-color: #453125;
+	color:  #FFE5D8 ;
+	text-shadow: 2px 2px black;
+}
+div#menu > div:hover{
+	background-color: #FFF8DB;
+	color: black;
+	text-shadow: none;
+}
+#form{
+	position: relative;
+	margin: 40px 50px 0px 50px;
+	border: 1px solid black;
+	background-color: #FFF8DB;
+	padding: 10px 30px 40px 30px;
+}
+#formTitle{
+	text-align: center;
+	text-shadow: 1px 1px brown;
+}
+div h3{
+	text-indent: 55px;
+}
+#cookieForm{
+	width: 545px;
+	margin: 0 auto;
+	font-size:1.2em;
+	padding-bottom: 30px;
+	position: relative;
+	left: 10px;
+}
+input{
+	width: 60px;
+}
+#add{
+	background-color: #453125;
+	color:  #FFE5D8 ;
+	text-shadow: 2px 2px black;
+}
+.sub{
+	display: block;
+	font-size: 1.2em;
+	width: 160px;
+	margin: 0 auto;
+	border: 2px solid #FFE5D8;
+	background-color: brown;
+	color: black;
+	text-shadow: 1px 1px #453125;
+}
+.sub:hover{
+	background-color: #FFE5D8;
+	color: black;
+	text-shadow: none;
+	border: 2px solid brown;
+}
+#basket{
+	color: #FFF8DB;
+	background-color: #453125;
+	margin: 25px 50px 30px 50px;
+	border: 2px solid brown;
+	height: 300px;
+	position: relative;
+	padding: 30px 30px 30px 40px;
+
+}
+#basketItems{
+	width: 600px;
+	margin: 0 auto;
+}
+div#basketItems h2{
+	width:115px;
+	margin: 0 auto;
+}
+div#contents h4{
+	margin: 30px;
+	font-size: 1.2em;
+	display:inline-block;
+}
+#price{
+	font-size: 1.3em;
+	width: 190px;
+	margin:0 auto;
+	padding-bottom: 30px;
+}
+.upYdown{
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	top: 14px;
+	margin-right: 7px;
+}
+.fa{
+	display: block;
+	border: 1px solid brown;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color:#453125;
+	color: #FFE5D8; 
+
+}
+.fa:hover{
+	background-color: #FFE5D8;
+	color: black;
+}
+#lemCount,
+#chocCount,
+#sugarCount{
+	display: inline-block;
+	width: 35px;
+	border: 1px solid brown;
+	text-align: right;
+	margin-right: 35px;
+	background-color: white;
+}
+#reset{
+	position: absolute;
+	bottom: 10px;
+}
+label{
+	font-weight: bold;
+	text-shadow: 1px 1px brown;
+}
+label:hover{
+	font-weight: bold;
+	text-shadow: 2px 1px black;
+	color: white;
+}
+h3#reset span{
+	color: brown;
+	text-shadow: 1px 1px black;
+}
+h3#reset span:hover{
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#empty{
+	width: 320px;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

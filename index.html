@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brown Bakery</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript" src="cookies.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<h1 id="bakery">Brown Bakery</h1>
+	<h3 id="address">123 Telegraph Ave. Oakland, Ca.</h3>
+	<div id ="menu">
+		<div>About Us</div>
+		<div>Lunch Menu</div>
+		<div>Cakes</div>
+		<div>Cookies</div>
+	</div>
+	<div id = "form">
+		<h1 id="formTitle">Cookie Order Form:</h1>
+		<h3>We sell three kinds of cookies:  <span id = "sc">sugar cookies</span> ,  <span id = "cc">chocolate cookies</span>  and  <span id = "lc">lemon cookies</span> . They're all only $2 per cookie! Add cookies to your basket by indicating the number of cookies you would like of each type.</h3>
+		<div id = "cookieForm">
+			<div class = "upYdown">
+				<i id ="sugarUp" class="fa fa-angle-up" style="font-size:24px"></i>	
+				<i id ="sugarDown" class="fa fa-angle-down" style="font-size:24px"></i>	
+			</div>
+			<label id="custS">Sugar: </label>
+			<p id="sugarCount">0</p>
+			<div class = "upYdown">
+				<i id ="chocUp" class="fa fa-angle-up" style="font-size:24px"></i>	
+				<i id ="chocDown" class="fa fa-angle-down" style="font-size:24px"></i>	
+			</div>
+			<label id="custC">Chocolate: </label>
+			<p id="chocCount">0</p>
+			<div class = "upYdown">
+				<i id ="lemUp" class="fa fa-angle-up" style="font-size:24px"></i>	
+				<i id ="lemDown" class="fa fa-angle-down" style="font-size:24px"></i>	
+			</div>
+			<label id="custL">Lemon: </label>
+			<p id="lemCount">0</p>
+		</div>
+
+		<button class = "sub" id ="add">Add To Cart</button>
+
+	</div>
+	<div id="basket">
+		<h2 id = "empty">Your basket is currently empty</h2>
+		<div id= "basketItems">
+			<h2 id= "bask"> Your Cart: </h2>
+			<div id = "contents">
+				<h4 id="sugars">Sugar x</h4>
+				<h4 id="chocolates">Chocolate x</h4>
+				<h4 id="lemons">Lemon x</h4>
+			</div>
+			<h3 id = "price">Total: </h3>
+		</div>
+		<button id= "checkout" class ="sub">Check Out</button>
+
+		<h3 id="reset">Want to make a different order? <span onclick="resetCookies()">Reset your cookie count here</span>.</h3>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
